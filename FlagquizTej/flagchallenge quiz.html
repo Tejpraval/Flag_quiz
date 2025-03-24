@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag Challenge Quiz</title>
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+</head>
+
+<body>
+    <div class="main-con">
+        <div class="quiz-container">
+            <div id="mode-selection">
+                <h1>Flag Challenge Quiz</h1>
+                <img src="https://png.pngtree.com/element_pic/00/16/09/2057e124daadd04.png" class="img-world" />
+                <p>Select Difficulty:</p>
+                <button id="easy-btn">Easy</button>
+                <button id="medium-btn">Medium</button>
+                <button id="hard-btn">Hard</button>
+            </div>
+            <div id="quiz-content" class="hidden">
+                <div class="con">
+                    <div><img id="flag-image" src="" alt="Flag Image"></div>
+                    <div>
+                        <p id="feedback"></p>
+                        <p id="score">Score: 0</p>
+                        <p id="timer">Time Left: 10</p>
+                    </div>
+                </div>
+                <div id="question-container">
+                    <p id="question"></p>
+                    <div id="options" class="options"></div>
+                </div>
+            </div>
+        </div>
+        <button id="dark-mode-toggle" class="in-con">Toggle Dark Mode</button>
+    </div>
+</body>
+
+</html>
